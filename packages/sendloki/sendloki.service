@@ -4,7 +4,7 @@ Wants=network-online.target
 After=network-online.target
 
 [Service]
-Type=oneshot
+Type=simple
 EnvironmentFile=/etc/sendloki.env
 ExecStart=/usr/lib/sendloki/sendloki.sh
 Restart=on-failure
