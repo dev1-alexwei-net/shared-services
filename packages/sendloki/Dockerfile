@@ -9,6 +9,7 @@ RUN apt-get update \
     curl \
     jq \
     hostname \
+    awk \
     && rm -rf /var/lib/apt/lists/*
 
 # Create non-root user

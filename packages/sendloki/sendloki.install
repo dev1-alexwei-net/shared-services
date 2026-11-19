@@ -1,1 +1,3 @@
 sendloki.sh usr/lib/sendloki
+sendloki.env etc
+sendloki.service lib/systemd/system
